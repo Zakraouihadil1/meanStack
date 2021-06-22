@@ -1,0 +1,942 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Gym Template">
+    <meta name="keywords" content="Gym, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gym | Template</title>
+
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<style>
+  /* You can add global styles to this file, and also import other style files */
+html,
+body {
+	height: 100%;
+	font-family: "Muli", sans-serif;
+	-webkit-font-smoothing: antialiased;
+  background-color:gold;
+}
+.container {
+  margin-top: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+	color: #111111;
+	font-weight: 400;
+	font-family: "Oswald", sans-serif;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+h4 {
+	font-size: 24px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 16px;
+}
+
+.navbar-nav {
+margin-left: 300px;
+}
+p{
+  color: black;
+  font-size: 15px;
+}
+
+a .btn {
+  padding-top: 200px;
+  
+}
+b{
+ font-size: 25px;
+ margin-left: 0px;
+}
+.container {
+    position: relative;
+    width: max-content;
+   
+}
+.container .text {
+    z-index: 1;
+    position: absolute;
+    text-align: center;
+    font-family: Georgia;
+    margin: 0 auto;
+    top: 30%;
+    color:transparent;
+    width: 90%;
+}
+
+
+/*--------------------------------------------------------------
+# About
+--------------------------------------------------------------*/
+
+.about{
+  background-color: gold;
+  padding-top: 30px;
+}
+.about .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: gold;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.about .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: gold;
+  box-shadow: 0px 5px 25px rgba(248, 203, 57, 0.3);
+}
+
+.about .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.about .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.about .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+.values{
+  background-color: gold;
+  padding-top: 10px;
+}
+.values .box {
+  padding: 30px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+  background-color: #f6f9ff;
+}
+
+.values .box img {
+  padding: 30px 50px;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+.values .box h3 {
+  font-size: 24px;
+  color: #012970;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+
+.values .box:hover img {
+  transform: scale(1);
+}
+
+/*--------------------------------------------------------------
+# Services
+--------------------------------------------------------------*/
+.col-lg-4 img{
+  height: 200px;
+}
+.services .service-box {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+  height: 100%;
+  padding: 60px 30px;
+  text-align: center;
+  transition: 0.3s;
+  border-radius: 5px;
+}
+
+
+
+.services .service-box h3 {
+  color: #444444;
+  font-weight: 700;
+}
+
+.services .service-box .read-more {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  font-size: 16px;
+  padding: 8px 20px;
+}
+
+.services .service-box .read-more i {
+  line-height: 0;
+  margin-left: 5px;
+  font-size: 18px;
+}
+
+.services .service-box.blue {
+  border-bottom: 3px solid gold;
+}
+
+
+.services .service-box.blue .read-more {
+  color: gold;
+}
+
+.services .service-box.blue:hover {
+  background: gold;
+}
+
+.services .service-box.orange {
+  border-bottom: 3px solid gold;
+}
+
+
+
+.services .service-box.orange .read-more {
+  color: gold;
+}
+
+.services .service-box.orange:hover {
+  background: gold;
+}
+
+.services .service-box.green {
+  border-bottom: 3px solid gold;
+  
+}
+
+
+
+.services .service-box.green .read-more {
+  color: gold;
+}
+
+.services .service-box.green:hover {
+  background: gold;
+}
+
+.services .service-box.red {
+  border-bottom: 3px solid gold;
+}
+
+
+
+.services .service-box.red .read-more {
+  color: gold;
+}
+
+.services .service-box.red:hover {
+  background: gold;
+}
+
+.services .service-box.purple {
+  border-bottom: 3px solid gold;
+}
+
+
+.services .service-box.purple .read-more {
+  color: gold;
+}
+
+.services .service-box.purple:hover {
+  background: gold;
+}
+/*--------------------------------------------------------------
+# Contact
+--------------------------------------------------------------*/
+.contact .info {
+  padding: 30px;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
+}
+
+.contact .info i {
+  font-size: 20px;
+  color: #fff;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: gold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #36343a;
+}
+
+.contact .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #686470;
+}
+
+.contact .php-email-form {
+  width: 100%;
+  padding: 30px;
+  background: #fff;
+  box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
+}
+
+.contact .php-email-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact .php-email-form .validate {
+  display: none;
+  color: red;
+  margin: 0 0 15px 0;
+  font-weight: 400;
+  font-size: 13px;
+}
+
+.contact .php-email-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .error-message br + br {
+  margin-top: 25px;
+}
+
+.contact .php-email-form .sent-message {
+  display: none;
+  color: #fff;
+  background: gold;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact .php-email-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact .php-email-form .loading:before {
+  content: "";
+  display: inline-block;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  margin: 0 10px -6px 0;
+  border: 3px solid gold;
+  border-top-color: #eee;
+  -webkit-animation: animate-loading 1s linear infinite;
+  animation: animate-loading 1s linear infinite;
+}
+
+.contact .php-email-form input, .contact .php-email-form textarea {
+  border-radius: 0;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact .php-email-form input {
+  height: 44px;
+}
+
+.contact .php-email-form textarea {
+  padding: 10px 12px;
+}
+
+.contact .php-email-form button[type="submit"] {
+  background: gold;
+  border: 0;
+  padding: 10px 30px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact .php-email-form button[type="submit"]:hover {
+  background: gold;
+}
+
+@-webkit-keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes animate-loading {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+.social-links img{
+  width: 50px;
+  height: 50px;
+}
+.footer {
+  background: #f6f9ff;
+  padding: 0 0 30px 0;
+  font-size: 14px;
+}
+
+.footer .footer-newsletter {
+  padding: 50px 0;
+  background: gold;
+  border-top: 1px solid #e1ecff;
+}
+
+.footer .footer-newsletter h4 {
+  font-size: 24px;
+  margin: 0 0 10px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 700;
+  color: black;
+}
+
+.footer .footer-newsletter form {
+  margin-top: 20px;
+  background: #fff;
+  padding: 6px 10px;
+  position: relative;
+  border-radius: 4px;
+  border: 1px solid #e1ecff;
+}
+
+.footer .footer-newsletter form input[type="email"] {
+  border: 0;
+  padding: 8px;
+  width: calc(100% - 140px);
+}
+
+.footer .footer-newsletter form input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  border: 0;
+  background: none;
+  font-size: 16px;
+  padding: 0 30px;
+  margin: 3px;
+  background: black;
+  color: #fff;
+  transition: 0.3s;
+  border-radius: 4px;
+}
+
+.footer .footer-newsletter form input[type="submit"]:hover {
+  background: gold;
+}
+
+.footer .footer-top {
+  background: black url(../img/footer-bg.png) no-repeat right top;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
+  padding: 60px 0 30px 0;
+}
+
+@media (max-width: 992px) {
+  .footer .footer-top {
+    background-position: center bottom;
+  }
+}
+
+.footer .footer-top .footer-info {
+  margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-info .logo {
+  line-height: 0;
+  margin-bottom: 15px;
+}
+
+.footer .footer-top .footer-info .logo img {
+  max-height: 40px;
+  margin-right: 6px;
+}
+
+.footer .footer-top .footer-info .logo span {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: gold;
+  font-family: "Nunito", sans-serif;
+  margin-top: 3px;
+}
+
+
+
+.footer .footer-top .footer-info p {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Nunito", sans-serif;
+  color: #fff;
+}
+
+.footer .footer-top .social-links a {
+  font-size: 20px;
+  display: inline-block;
+  color: gold;
+  line-height: 0;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+.footer .footer-top .social-links a:hover {
+  color:gold;
+}
+
+.footer .footer-top h4 {
+  font-size: 16px;
+  font-weight: bold;
+  color: gold;
+  text-transform: uppercase;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.footer .footer-top .footer-links {
+  margin-bottom: 30px;
+}
+
+.footer .footer-top .footer-links ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer .footer-top .footer-links ul i {
+  padding-right: 2px;
+  color: gold;
+  font-size: 12px;
+  line-height: 0;
+}
+
+.footer .footer-top .footer-links ul li {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+}
+
+.footer .footer-top .footer-links ul li:first-child {
+  padding-top: 0;
+}
+
+.footer .footer-top .footer-links ul a {
+  color: gold;
+  transition: 0.3s;
+  display: inline-block;
+  line-height: 1;
+}
+
+.footer .footer-top .footer-links ul a:hover {
+  color: gold;
+}
+
+.footer .footer-top .footer-contact p {
+  line-height: 26px;
+  color:#fff
+}
+
+.footer .copyright {
+  text-align: center;
+  padding-top: 30px;
+  color: gold;
+}
+
+.footer .credits {
+  padding-top: 10px;
+  text-align: center;
+  font-size: 13px;
+  color: gold;
+}
+.footer .credits a {
+  color: gold;}
+
+
+</style>
+  </head>
+  <body>
+
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="#">Galaxy Gym</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item ">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Activities </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Spaces </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact </a>
+          </li>
+          
+
+          
+         
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light my-2 my-sm-0" type="submit">Search</button>
+        </form>
+      </div>
+    </nav>
+
+    <div class="container" >
+   
+      <img src="assets/img/accueil.png">     
+      <div  class="text">
+    <p> <b>Welcome to Galaxy Gym</b> <br> Gym and fitness room </p>
+       <a class="btn btn-light btn-xl text-uppercase js-scroll-trigger" href="#Abou Us">La salle</a><a class="btn btn-light btn-xl text-uppercase js-scroll-trigger" href="#Contact US">Contact</a>
+
+     </div> 
+    </div>
+
+      <!-- ======= About Section ======= -->
+      <section id="about" class="about">
+  
+        <div class="container" data-aos="fade-up">
+          <div class="row gx-0">
+  
+            <div class="col-lg-6 d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="200">
+              <div class="content">
+                <h3> <b>Who We Are</b></h3>
+                <p>
+                  Enjoy a pleasant setting, airy and air-conditioned spaces, state-of-the-art equipment and qualified coaches to supervise, motivate and support you. Galaxy Gym is a sports and fitness room that offers a variety of classes in a Fitness area for adults, teens and children. You will find everything you need in our weight training and Cardio Training areas with quality equipment.
+                </p>
+                
+              </div>
+            </div>
+  
+            <div class="col-lg-6 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="200">
+              <img src="assets/img/about.jpg "  class="img-fluid" alt="">
+            </div>
+  
+          </div>
+        </div>
+  
+      </section><!-- End About Section -->
+
+       <!-- ======= Values Section ======= -->
+    <section id="values" class="values">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2><b>Our Spaces</b></h2>
+        </header>
+
+        <div class="row">
+
+          <div class="col-lg-4">
+            <div class="box" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/muscula.png" class="img-fluid" alt="">
+              <h3>Body building</h3>
+              <p>Enjoy a pleasant setting, airy and air-conditioned spaces, state-of-the-art equipment and qualified coaches to supervise, motivate and support you. Galaxy Gym is a sports and fitness room that offers a variety of classes in a Fitness area for adults, teens and children. You will find everything you need in our weight training and Cardio Training areas with quality equipment.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/img/ddd.png" class="img-fluid" alt="">
+              <h3>Fitness</h3>
+              <p>Take advantage of our fitness area. You want to sweat, dance, refine yourself, let off steam, you stay, there is something for all tastes, all needs and all desires. </p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 mt-4 mt-lg-0">
+            <div class="box" data-aos="fade-up" data-aos-delay="600">
+              <img src="assets/img/111.png" class="img-fluid" alt="">
+              <h3>Cardio training </h3>
+              <p>Cardio training brings together all disciplines involving the cardio respiratory system. Take advantage of our space to improve your physical condition, breath, recovery, facilitate weight loss and burn fat.
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- End Values Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+
+      <div class="container" data-aos="fade-up">
+
+        <header class="section-header">
+          <h2><b>Our Activities</b></h2>
+        </header>
+
+        <div class="row gy-4">
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+            <div class="service-box blue">
+              <img src="assets/img/aaa.jpg">
+              <h3>Medical Gym</h3>
+              <p>The Medical Gym brings together joint and muscular maintenance movements, associated with gentle stretching and work on breathing. Back pain can be reduced with medical gymnastics or also called back school. You are preparing for sport or you want to reduce back pain such as lumbago, sciatica ... the techniques of the back school can meet your expectations.</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+            <div class="service-box orange">
+              <img src="assets/img/bbb.jpg">
+              <h3>Slimming circuit</h3>
+              <p> The slimming circuit is a fitness class built around cardio and muscle building workshops. Its goal is to burn fat and shape the silhouette through exercises targeting certain parts of the body.</p>
+            </div>
+          </div>
+<br>
+<br>
+<br>
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+            <div class="service-box green">
+              <img src="assets/img/ccc.jpg">
+              <h3>CrossFit</h3>
+              <p> CrossFit is a method of physical conditioning, of the cross training type. CrossFit primarily combines powerlifting, weight lifting, gymnastics and endurance sports.</p>
+            </div>
+          </div>
+
+          
+
+        </div>
+
+      </div>
+
+    </section><!-- End Services Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-4" data-aos="fade-right">
+            <div class="section-title">
+              <h2><b>Contact Us</b></h2>
+              <p>Our team is happy to answer your sales questions <br> Fit out the form and will be in touch as soon as possible </p>
+            </div>
+          </div>
+
+          <div class="col-lg-8" data-aos="fade-up" data-aos-delay="100">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25983.85350088318!2d11.034547346310221!3d35.50473103506777!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x130223f5186c6cf9%3A0x675f7b734dffa5bb!2sMahdia!5e0!3m2!1sfr!2stn!4v1620347051613!5m2!1sfr!2stn" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>            <div class="info mt-4">
+              <i class="icofont-google-map"><img src="assets/img/location.jpg"></i>
+              <h4>Location:</h4>
+              <p>Mahdia,Sidi Massoued,Tunisie</p>
+            </div>
+            <div class="row">
+              <div class="col-lg-6 mt-4">
+                <div class="info">
+                  <i class="icofont-envelope"> <img src="assets/img/mail.jpg"></i>
+                  <h4>Email:</h4>
+                  <p>GalaxyGym@example.com</p>
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="info w-100 mt-4">
+                  <i class="icofont-phone"><img src="assets/img/phone.png"></i>
+                  <h4>Call:</h4>
+                  <p>+1 5589 55488 55s</p>
+                </div>
+              </div>
+            </div>
+
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form mt-4">
+              <div class="form-row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                  <div class="validate"></div>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
+                  <div class="validate"></div>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
+                <div class="validate"></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
+                <div class="validate"></div>
+              </div>
+              <div class="mb-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Contact Section -->
+
+     <!-- ======= Footer ======= -->
+  <footer id="footer" class="footer">
+
+    <div class="footer-newsletter">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-12 text-center">
+            <h4>Our Newsletter</h4>
+            <p>Would you like to be regularly informed of news and events organized by Galaxy Cym? Insert your e-mail here</p>
+          </div>
+          <div class="col-lg-6">
+            <form action="" method="post">
+              <input type="email" name="email"><input type="submit" value="Subscribe">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer-top">
+      <div class="container">
+        <div class="row gy-4">
+          <div class="col-lg-5 col-md-12 footer-info">
+            <a href="index.html" class="logo d-flex align-items-center">
+              <span>Galaxy Gym</span>
+            </a>
+            <br>
+            <p>Galaxy Gym, the country of fitness, is among the first chain of fitness clubs in Tunisia
+              Galaxy Gym, enjoy the difference!</p>
+            <div class="social-links mt-3">
+              <a href="#" class="twitter"><i class="bi bi-twitter"><img src="assets/img/twit.png"></i></a>
+              <a href="#" class="facebook"><i class="bi bi-facebook"><img src="assets/img/f.jpg"></i></a>
+              <a href="#" class="instagram"><i class="bi bi-instagram bx bxl-instagram"><img src="assets/img/ff.png"></i></a>
+              <a href="#" class="linkedin"><i class="bi bi-linkedin bx bxl-linkedin"><img src="assets/img/ii.jpg" ></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-2 col-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Home</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">About us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Our Activities</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Our Spaces</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Contact Us</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Terms of service</a></li>
+              <li><i class="bi bi-chevron-right"></i> <a href="#">Privacy policy</a></li>
+            </ul>
+          </div>
+
+        
+
+          <div class="col-lg-2 col-6 footer-contact text-center text-md-start">
+            <h4>Contact Us</h4>
+            <p>
+              Mahdia<br>
+             Tunisie<br>
+            <strong>Phone:</strong>+1 5589 55488 55<br>
+              <strong>Email:</strong> GalaxyGym@example.com<br>
+            </p>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="copyright">
+        &copy; Copyright <strong><span>Galaxy Gym</span></strong>. All Rights Reserved
+      </div>
+      <div class="credits">
+        Designed by <a href="https://GalaxyGym.com/">Galaxy Gym</a>
+      </div>
+    </div>
+      </footer>
+    </body>
+</html>
